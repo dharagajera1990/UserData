@@ -3,7 +3,6 @@ import AntdExample from "./AntdExample";
 import CountryChart from "./CountryChart";
 import {Container, Row, Col} from 'reactstrap';
 import Custome from "./CustomeTable/Custome";
-import ReactTableExample from "./React-table.js";
 
 function index() {
   return (
@@ -15,8 +14,7 @@ function index() {
           <p className="header-description">Antd library Example Using Class Component</p>
           <AntdExample />
        
-            <Custome />
-            <ReactTableExample />
+          <Custome />
         </div>
     </Container>
   );
