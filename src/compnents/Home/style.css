@@ -1,0 +1,16 @@
+.question {
+  width: 500px;
+  height: 500px;
+}
+
+.question-container {
+  width: 100%;
+  height: 100%;
+}
+body{
+background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.header-description{
+  color: #b8bab5;
+}
