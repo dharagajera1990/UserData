@@ -1,3 +1,5 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 .question {
   width: 500px;
   height: 500px;
@@ -8,7 +10,10 @@
   height: 100%;
 }
 body{
-background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+h1{
+  color: #fff;
 }
 
 .header-description{
@@ -18,8 +23,10 @@ background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 .deleteBtn
 {
   cursor: pointer;
-  color: blue;
-  textDecoration: underline;
+  color: #fff;
+  text-decoration: none;
+  background: #171742;
+  padding: 5px 10px;
 }
 .react-table-example{
   background-color: #f4f5fb;
@@ -27,3 +34,37 @@ background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 .pagination {
   display: block !important;
 }
+/*search example*/
+.mainLoginInput::-webkit-input-placeholder { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput::-moz-placeholder  { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+}
+

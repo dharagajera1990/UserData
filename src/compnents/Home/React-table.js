@@ -10,12 +10,12 @@ function DefaultColumnFilter({
 
     return (
         <input
-          className="form-control"
+          className="form-control mainLoginInput"
           value={filterValue || ""}
           onChange={(e) => {
             setFilter(e.target.value || undefined);
           }}
-          placeholder={`Search ${count} records...`}
+          placeholder="&#61442;"
         />
     );
 }
@@ -64,7 +64,8 @@ function Table({ columns, data }) {
 
   return (
     <>
-       <table className="table" {...getTableProps()}>
+        <div class="table-responsive">
+            <table className="table " {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
@@ -95,6 +96,7 @@ function Table({ columns, data }) {
                     })}
                 </tbody>
             </table>
+        </div>
       <div className="pagination">
         <button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
           {"<<"}

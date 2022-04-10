@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './assets/static/Exo2-Regular.ttf';
 ReactDOM.render(
   <React.StrictMode>
     <App />
