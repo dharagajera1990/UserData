@@ -14,3 +14,16 @@ background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 .header-description{
   color: #b8bab5;
 }
+
+.deleteBtn
+{
+  cursor: pointer;
+  color: blue;
+  textDecoration: underline;
+}
+.react-table-example{
+  background-color: #f4f5fb;
+}
+.pagination {
+  display: block !important;
+}
